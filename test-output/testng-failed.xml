@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="C:/Users/Krystian/IdeaProjects/Test2/src/parametrizationTest.java(failed)">
     <classes>
-      <class name="Selenium2">
+      <class name="parametrization.parametrizationTest">
         <methods>
-          <include name="setup" invocation-numbers="0"/>
+          <include name="testCase2"/>
         </methods>
-      </class> <!-- Selenium2 -->
+      </class> <!-- parametrization.parametrizationTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- C:/Users/Krystian/IdeaProjects/Test2/src/parametrizationTest.java(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
